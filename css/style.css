@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  border: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.container {
+  width: 480px;
+  height: 100px;
+  padding-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: #444646;
+  position: relative; }
+  .container input {
+    flex: 1;
+    height: 40px;
+    display: block;
+    color: #b7b5b5;
+    font-size: 26px;
+    padding-left: 80px;
+    padding-right: 5px;
+    background: transparent;
+    transition: background 0.7s, color 0.5s, box-shadow 0.4s; }
+  .container img {
+    height: 40px; }
+  .container label {
+    color: #b7b5b5;
+    font-size: 26px;
+    position: absolute;
+    left: 20px;
+    transition: color 0.5s; }
+
+.passive.active {
+  background: linear-gradient(270deg, white 0%, #dedcdc 55%, #c3c3c3 100%) !important;
+  color: black !important;
+  box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.4); }
+
+.passive1.active1 {
+  color: black; }
